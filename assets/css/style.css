@@ -1,0 +1,50 @@
+/*
+ * Globals
+ */
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #555;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+
+.header-main {
+  height:110px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+.article-list .article-entry:first-child {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+}
+.article-list .article-entry{
+display: table;
+table-layout: fixed;
+width: 100%;
+line-height: 1;
+margin: 15px 0 0;
+padding: 15px 0 0;
+border-top: 1px solid #f2f2f2;
+vertical-align: top;
+word-break: break-all;
+word-wrap: break-word;
+}
+}

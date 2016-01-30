@@ -24,11 +24,11 @@ h6, .h6 {
   text-align: center;
 }
 
-
-
-
-
-
+.body-wrapper .sub-header{
+  height:40px;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+}
 
 .article-list .article-entry:first-child {
     margin-top: 0;
